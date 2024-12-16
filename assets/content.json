@@ -39,6 +39,7 @@
                 "hasHeader":true,
                 "isRequiredInput":false,
                 "hasLinearScale":true,
+                "hasRangeLinearScale":true,
                 "isWrapFirstColumn":true,
                 "header":["متغیر","تحقق یافته سال پیش","تحقق یافته فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
@@ -56,11 +57,12 @@
                 "hasHeader":true,
                 "isRequiredInput":false,
                 "hasLinearScale":true,
+                "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":10,"column":[{"min":0,"max":0,"value":"شاخص نا اطمینانی","defVal":0,"valType":""},{"min":30,"max":100,"value":"20","defVal":10,"valType":"horzLinearScale"},{"min":50,"max":100,"value":"40","defVal":10,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":10,"column":[{"min":0,"max":0,"value":"شاخص نا اطمینانی","defVal":0,"valType":""},{"min":30,"max":100,"value":"20","defVal":10,"valType":"horzLinearScale"},{"min":50,"max":100,"value":"40","defVal":10,"valType":"horzLinearScale"}]}
                 ]
             }            
         },
