@@ -421,25 +421,6 @@
                     {"isCheckedRange":true,"isCheckedValue":false,"step":10,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":30,"max":100,"value":"20","defVal":10,"valType":"horzLinearScale"},{"min":50,"max":100,"value":"40","defVal":10,"valType":"horzLinearScale"}]}
                 ]
             }               
-        },
-        {
-            "id":"sectionFinal",
-            "caption":"گردآوری و ارسال اطلاعات",
-            "image":"",
-            "paragraph":[
-                    {
-                        "bold":"",
-                        "regular":""
-                    },
-                    {
-                        "bold":"",
-                        "regular":""
-                    },
-                    {
-                        "bold":"",
-                        "regular":""
-                    }
-            ]
-        }        
+        }
     ]
 }
