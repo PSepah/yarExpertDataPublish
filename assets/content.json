@@ -8,7 +8,7 @@
         {"caption":"نرخ بازده در بازار بدهی","icon":"","link":"section6"},
         {"caption":"نرخ تورم","icon":"","link":"section7"},
         {"caption":"نرخ رشد اقتصادی","icon":"","link":"section8"},
-        {"caption":"گردآوری و ارسال اطلاعات","icon":"","link":"section0"}
+        {"caption":"گردآوری و ارسال اطلاعات","icon":"","link":"sendLink"}
     ],
     "economicVar": [
         {
