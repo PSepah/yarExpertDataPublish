@@ -1,18 +1,18 @@
 {
     "menu":[
-        {"caption":"شاخص نا اطمینانی","icon":"","link":"section1"},
-        {"caption":"قیمت نفت","icon":"","link":"section2"},
-        {"caption":"صادرات نفت ایران","icon":"","link":"section3"},
-        {"caption":"رشد حجم پول","icon":"","link":"section4"},
-        {"caption":"نرخ ارز","icon":"","link":"section5"},
-        {"caption":"نرخ بازده در بازار بدهی","icon":"","link":"section6"},
-        {"caption":"نرخ تورم","icon":"","link":"section7"},
-        {"caption":"نرخ رشد اقتصادی","icon":"","link":"section8"},
+        {"caption":"شاخص نا اطمینانی","icon":"","link":"UncertaintyIndex"},
+        {"caption":"قیمت نفت","icon":"","link":"OilSale"},
+        {"caption":"صادرات نفت ایران","icon":"","link":"OilExport"},
+        {"caption":"رشد حجم پول","icon":"","link":"LiquidityGrowth"},
+        {"caption":"نرخ ارز","icon":"","link":"CurrencyGrowth"},
+        {"caption":"نرخ بازده در بازار بدهی","icon":"","link":"RateOfReturnInTheDebtMarket"},
+        {"caption":"نرخ تورم","icon":"","link":"InfloationRate"},
+        {"caption":"نرخ رشد اقتصادی","icon":"","link":"EconomicGrowthRate"},
         {"caption":"گردآوری و ارسال اطلاعات","icon":"","link":"sendLink"}
     ],
     "economicVar": [
         {
-            "id":"section1",
+            "id":"UncertaintyIndex",
             "caption":"شاخص نا اطمینانی",
             "image":"assets/images/uncert.png",
             "paragraph":[
@@ -44,7 +44,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"شاخص نا اطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":"20.4","defVal":10,"valType":"number"},{"min":0,"max":100,"value":"51","defVal":10,"valType":"number"},{"min":0,"max":100,"value":"51","defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":"51","defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":"51","defVal":51,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"شاخص نا اطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":20.4,"defVal":10,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":10,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -62,12 +62,12 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"شاخص نا اطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"شاخص نا اطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }            
         },
         {
-            "id":"section2",
+            "id":"OilSale",
             "caption":"قیمت نفت",
             "image":"assets/images/oilPrice.png",
             "paragraph":[
@@ -96,7 +96,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"قیمت نفت","defVal":0,"valType":""},{"min":0,"max":100,"value":"80.2","defVal":80.2,"valType":"number"},{"min":0,"max":100,"value":"74.2","defVal":10,"valType":"number"},{"min":40,"max":140,"value":"74.2","defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":"74.2","defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":"74.2","defVal":74.2,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"قیمت نفت","defVal":0,"valType":""},{"min":0,"max":100,"value":80.2,"defVal":80.2,"valType":"number"},{"min":0,"max":100,"value":74.2,"defVal":10,"valType":"number"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -114,12 +114,12 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"قیمت نفت","defVal":0,"valType":""},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"قیمت نفت","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }            
         },        
         {
-            "id":"section3",
+            "id":"OilExport",
             "caption":"صادرات نفت ایران",
             "image":"assets/images/oilExport.png",
             "paragraph":[
@@ -148,7 +148,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":"1.50","defVal":1.65,"valType":"number"},{"min":0,"max":100,"value":"1.65","defVal":1.65,"valType":"number"},{"min":0.3,"max":2.5,"value":"1.65","defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":"1.65","defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":"1.65","defVal":1.65,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":1.50,"defVal":1.65,"valType":"number"},{"min":0,"max":100,"value":1.65,"defVal":1.65,"valType":"number"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -166,12 +166,12 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }             
         },
         {
-            "id":"section4",
+            "id":"LiquidityGrowth",
             "caption":"رشد حجم پول",
             "image":"assets/images/monyGrow.png",
             "paragraph":[
@@ -200,7 +200,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"رشد حجم پول","defVal":0,"valType":""},{"min":0,"max":100,"value":"26.2","defVal":26.2,"valType":"number"},{"min":0,"max":100,"value":"28.1","defVal":28.1,"valType":"number"},{"min":25,"max":45,"value":"28.1","defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":"28.1","defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":"28.1","defVal":28.1,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"رشد حجم پول","defVal":0,"valType":""},{"min":0,"max":100,"value":26.2,"defVal":26.2,"valType":"number"},{"min":0,"max":100,"value":28.1,"defVal":28.1,"valType":"number"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -218,12 +218,12 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"رشد حجم پول","defVal":0,"valType":""},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"رشد حجم پول","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }              
         },
         {
-            "id":"section5",
+            "id":"CurrencyGrowth",
             "caption":"نرخ ارز",
             "image":"assets/images/currencyRate.png",
             "paragraph":[
@@ -252,7 +252,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":5000,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":"60300","defVal":60300,"valType":"number"},{"min":0,"max":100,"value":"78000","defVal":78000,"valType":"number"},{"min":50000,"max":100000,"value":"78000","defVal":78000,"valType":"vertLinearScale"},{"min":50000,"max":100000,"value":"78000","defVal":10,"valType":"vertLinearScale"},{"min":50000,"max":100000,"value":"78000","defVal":10,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":5000,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":60300,"defVal":60300,"valType":"number"},{"min":0,"max":100,"value":78000,"defVal":78000,"valType":"number"},{"min":50000,"max":100000,"value":78000,"defVal":78000,"valType":"vertLinearScale"},{"min":50000,"max":100000,"value":78000,"defVal":10,"valType":"vertLinearScale"},{"min":50000,"max":100000,"value":78000,"defVal":10,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -270,12 +270,12 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }               
         },
         {
-            "id":"section6",
+            "id":"RateOfReturnInTheDebtMarket",
             "caption":"نرخ بازده در بازار بدهی",
             "image":"assets/images/nerxBazdeh.PNG",
             "paragraph":[
@@ -304,7 +304,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":40,"value":"26.06","defVal":26.06,"valType":"number"},{"min":0,"max":100,"value":"30.38","defVal":30.38,"valType":"number"},{"min":20,"max":40,"value":"30.38","defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":40,"value":"30.38","defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":40,"value":"30.38","defVal":30.38,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":40,"value":26.06,"defVal":26.06,"valType":"number"},{"min":0,"max":100,"value":30.38,"defVal":30.38,"valType":"number"},{"min":20,"max":40,"value":30.38,"defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -322,12 +322,12 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":0,"max":100,"value":"50","defVal":10,"valType":"horzLinearScale"},{"min":0,"max":100,"value":"50","defVal":10,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":10,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":10,"valType":"horzLinearScale"}]}
                 ]
             }               
         },
         {
-            "id":"section7",
+            "id":"InfloationRate",
             "caption":"نرخ تورم",
             "image":"assets/images/infolation.png",
             "paragraph":[
@@ -352,7 +352,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ تورم","defVal":0,"valType":""},{"min":0,"max":100,"value":"40.2","defVal":40.2,"valType":"number"},{"min":0,"max":100,"value":"32.5","defVal":32.5,"valType":"number"},{"min":20,"max":70,"value":"32.5","defVal":10,"valType":"vertLinearScale"},{"min":20,"max":70,"value":"32.5","defVal":10,"valType":"vertLinearScale"},{"min":20,"max":70,"value":"32.5","defVal":10,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ تورم","defVal":0,"valType":""},{"min":0,"max":100,"value":40.2,"defVal":40.2,"valType":"number"},{"min":0,"max":100,"value":32.5,"defVal":32.5,"valType":"number"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -370,12 +370,12 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"نرخ تورم","defVal":0,"valType":""},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"نرخ تورم","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }               
         },
         {
-            "id":"section8",
+            "id":"EconomicGrowthRate",
             "caption":"نرخ رشد اقتصادی",
             "image":"assets/images/conomicGrowRate.png",
             "paragraph":[
@@ -400,7 +400,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":"4.3","defVal":4.3,"valType":"number"},{"min":0,"max":100,"value":"4","defVal":4,"valType":"number"},{"min":-8,"max":8,"value":"4","defVal":4,"valType":"vertLinearScale"},{"min":-8,"max":8,"value":"4","defVal":4,"valType":"vertLinearScale"},{"min":-8,"max":8,"value":"4","defVal":4,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":4.3,"defVal":4.3,"valType":"number"},{"min":0,"max":100,"value":4,"defVal":4,"valType":"number"},{"min":-8,"max":8,"value":4,"defVal":4,"valType":"vertLinearScale"},{"min":-8,"max":8,"value":4,"defVal":4,"valType":"vertLinearScale"},{"min":-8,"max":8,"value":4,"defVal":4,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -418,7 +418,7 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":"50","defVal":50,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":5,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }               
         }
