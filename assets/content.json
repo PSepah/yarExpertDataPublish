@@ -250,7 +250,7 @@
                 "hasRangeLinearScale":true,
                 "isWrapFirstColumn":true,
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
-                "headerSize":["","10%","10%","25%","25%","25%"],
+                "headerSize":["","13%","13%","22%","25%","22%"],
                 "row":[
                     {"isCheckedRange":false,"isCheckedValue":false,"step":5000,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":60300,"defVal":60300,"valType":"number"},{"min":0,"max":100,"value":78000,"defVal":78000,"valType":"number"},{"min":50000,"max":100000,"value":78000,"defVal":78000,"valType":"vertLinearScale"},{"min":50000,"max":100000,"value":78000,"defVal":10,"valType":"vertLinearScale"},{"min":50000,"max":100000,"value":78000,"defVal":10,"valType":"vertLinearScale"}]}
                 ]
