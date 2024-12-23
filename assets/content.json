@@ -44,7 +44,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":"21.3","defVal":10,"valType":"number"},{"min":0,"max":100,"value":45.9,"defVal":10,"valType":"number"},{"min":0,"max":100,"value":"51","defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":"51","defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":21.3,"defVal":10,"valType":"number"},{"min":0,"max":100,"value":45.9,"defVal":10,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -96,7 +96,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"قیمت نفت","defVal":0,"valType":""},{"min":0,"max":100,"value":"85","defVal":80.2,"valType":"number"},{"min":0,"max":100,"value":"74.2","defVal":10,"valType":"number"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":"74.2","defVal":74.2,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"قیمت نفت","defVal":0,"valType":""},{"min":0,"max":100,"value":85,"defVal":80.2,"valType":"number"},{"min":0,"max":100,"value":74.2,"defVal":10,"valType":"number"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -148,7 +148,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":"1.56","defVal":1.65,"valType":"number"},{"min":0,"max":100,"value":1.52,"defVal":1.65,"valType":"number"},{"min":0.3,"max":2.5,"value":"1.65","defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":1.56,"defVal":1.65,"valType":"number"},{"min":0,"max":100,"value":1.52,"defVal":1.65,"valType":"number"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -200,7 +200,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":"24.3","defVal":26.2,"valType":"number"},{"min":0,"max":100,"value":"28.1","defVal":28.1,"valType":"number"},{"min":25,"max":45,"value":"28.1","defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":"28.1","defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":"28.1","defVal":28.1,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":24.3,"defVal":26.2,"valType":"number"},{"min":0,"max":100,"value":28.1,"defVal":28.1,"valType":"number"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":8.1,"defVal":28.1,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -377,7 +377,7 @@
         {
             "id":"EconomicGrowthRate",
             "caption":"نرخ رشد اقتصادی",
-            "image":"assets/images/conomicGrowRate.png",
+            "image":"assets/images/economicGrowRate.png",
             "paragraph":[
                 {
                     "bold":"آهنگ کاهشی تورم نقطه به نقطه در فصل تابستان کند شد در حالی که رشد اقتصادی کاهش یافت. ",
@@ -400,7 +400,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":4.0,"defVal":4.3,"valType":"number"},{"min":0,"max":100,"value":"3.4","defVal":4,"valType":"number"},{"min":-4,"max":6,"value":"4","defVal":4,"valType":"vertLinearScale"},{"min":-4,"max":6,"value":"4","defVal":4,"valType":"vertLinearScale"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":4.0,"defVal":4.3,"valType":"number"},{"min":0,"max":100,"value":3.4,"defVal":4,"valType":"number"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
