@@ -1,13 +1,11 @@
 ﻿{
     "menu":[
         {"caption":"شاخص نااطمینانی","icon":"","link":"UncertaintyIndex"},
-        {"caption":"قیمت نفت","icon":"","link":"OilSale"},
+        {"caption":"بدهی دولت به نظام بانکی","icon":"","link":"OilSale"},
         {"caption":"صادرات نفت ایران","icon":"","link":"OilExport"},
         {"caption":"رشد نقدینگی","icon":"","link":"LiquidityGrowth"},
         {"caption":"نرخ ارز","icon":"","link":"CurrencyGrowth"},
         {"caption":"نرخ بازده در بازار بدهی","icon":"","link":"RateOfReturnInTheDebtMarket"},
-        {"caption":"نرخ تورم","icon":"","link":"InfloationRate"},
-        {"caption":"نرخ رشد اقتصادی","icon":"","link":"EconomicGrowthRate"},
         {"caption":"گردآوری و ارسال اطلاعات","icon":"","link":"sendLink"}
     ],
     "economicVar": [
@@ -68,16 +66,12 @@
         },
         {
             "id":"OilSale",
-            "caption":"قیمت نفت",
+            "caption":"بدهی دولت به نظام بانکی",
             "image":"assets/images/oilPrice.png",
             "paragraph":[
                 {
-                    "bold":"قیمت نفت خام در بازارهای جهانی در فصل پاییز با آهنگ نزولی مواجه شد و به ۷۳.۲ دلار در پایان پاییز کاهش یافت. ",
-                    "regular":"قیمت هر بشکه نفت خام برنت در فصل پاییز با کاهش ۲.۵ درصدی از ۷۵.۱ در پایان فصل تابستان به ۷۳.۲ دلار بشکه در پایان فصل پاییز رسید. در این دوره پس از چند دوره کاهش تقاضا، بدلیل در پیش گیری سیاست های انبساطی تقاضای نفت چین دومین اقتصاد بزرگ جهان افزایشی شد. با این همه افزایش عرضه نفت توسط کشورهای غیر اوپک و همچنین برداشت از ذخایر استراتژیک اروپا در کنار افزایش نفت لیبی و قزاقستان سبب شد تا در طی این دوره بازار با مازاد عرضه روبرو شده و قیمت ها کاهش یابند. شایان ذکر است که قیمت نفت خام ایران در سطح حدود ۴ دلار و قیمت نفت سنگین ایران حدود ۷ دلار زیر قیمت نفت برنت معامله می شود. "
-                },
-                {
-                    "bold":"قیمت نفت در سال آینده میلادی همچنان تحت تاثیر مازاد عرضه باقی خواهد ماند، هرچند کاهش عرضه اوپک می تواند سبب افزایش محدود قیمت شود",
-                    "regular":"انتظار می رود تقاضای جهانی به ۱.۱ میلیون بشکه در روز در سال آینده افزایش یابد. حال آن که عرضه جهانی نفت در سال ۲۰۲۵ به ۱.۹ میلیون بشکه در روز افزایش خواهد یافت که عمدتاً به دلیل افزایش نفت  ایالات متحده، برزیل، گویان، کانادا و آرژانتین خواهد بود.  با درنظر گرفتن نیاز به جبران کاهش ذخایر نفت خام کشور ها که در فصل زمستان شاهد آن بوده ایم احتمالا  برای سال آینده  قیمت نفت برنت در حدود ۷۳ دلار تثبیت خواهد شد و بعید است از این رقم فراتر رود."
+                    "bold":"نرخ رشد بدهی‌های دولت به نظام بانکی (شامل بانک مرکزی و شبکه بانکی) در فصل تابستان پس از افت شدید فصل بهار، به مدار صعودی بازگشت. ",
+                    "regular":"نرخ رشد بدهی‌های دولت به نظام بانکی (شامل بانک مرکزی و شبکه بانکی) در فصل بهار ۱۴۰۳ با افت شدید از ۶۴.۹ درصد در زمستان ۱۴۰۲ به ۱۵.۷ درصد کاهش یافت، اما در فصل تابستان ۱۴۰۳ مجددا به مدار صعودی بازگشت و به ۳۲.۷ درصد افزایش یافت. آمار بدهی‌های دولت به نظام بانکی در فصل پاییز ۱۴۰۳ هنوز توسط بانک مرکزی منتشر نشده‌است. "
                 }
             ]
             ,
@@ -96,7 +90,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"قیمت نفت","defVal":0,"valType":""},{"min":0,"max":100,"value":85,"defVal":80.2,"valType":"number"},{"min":0,"max":100,"value":74.2,"defVal":10,"valType":"number"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بدهی دولت به نظام بانکی","defVal":0,"valType":""},{"min":0,"max":100,"value":"85","defVal":80.2,"valType":"number"},{"min":0,"max":100,"value":"74.2","defVal":10,"valType":"number"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":74.2,"defVal":74.2,"valType":"vertLinearScale"},{"min":40,"max":140,"value":"74.2","defVal":74.2,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -114,10 +108,10 @@
                 "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"قیمت نفت","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بدهی دولت به نظام بانکی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }            
-        },        
+        },
         {
             "id":"OilExport",
             "caption":"صادرات نفت ایران",
@@ -323,102 +317,6 @@
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
-                ]
-            }               
-        },
-        {
-            "id":"InfloationRate",
-            "caption":"نرخ تورم",
-            "image":"assets/images/infolation.png",
-            "paragraph":[
-                {
-                    "bold":"تورم نقطه به نقطه که در فصل تابستان اندکی رو به کاهش نهاده بود در فصل پاییز دوباره افزایش یافت. ",
-                    "regular":"نرخ تورم نقطه به نقطه در طی سال جاری تغییرات اندکی را شاهد بوده است و از ۳۱.۹ درصد در ابتدای سال به ۳۱.۲ درصد در پایان تابستان و نهایتا ۳۲.۵ درصد در پایان آبان ماه رسید. در این مدت مقدار تورم متوسط دوازده ماهه نیز با یک سیر نزولی مداوم از ۳۶.۱ درصد در ابتدای سال به ۳۳.۱ درصد کاهش یافته است. علی رغم همه مشاهدات فوق بعید به نظر می رسد که این روند کاهشی تا پایان سال نیز همچنان ادامه یابد."
-                }
-            ]
-            ,
-            "ForecastMacroVarForUpcomingPeriod":{
-                "paragraph":[
-                    {
-                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
-                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
-                    "regular":""
-                }],
-                "hasHeader":true,
-                "isRequiredInput":false,
-                "hasLinearScale":true,
-                "hasRangeLinearScale":true,
-                "isWrapFirstColumn":true,
-                "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
-                "headerSize":["","10%","10%","25%","25%","25%"],
-                "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ تورم","defVal":0,"valType":""},{"min":0,"max":100,"value":32.3,"defVal":40.2,"valType":"number"},{"min":0,"max":100,"value":32.5,"defVal":31.4,"valType":"number"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32.5,"defVal":10,"valType":"vertLinearScale"}]}
-                ]
-            },
-            "Diviation":{
-                "paragraph":[
-                    {
-                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
-                    "bold":"",
-                    "regular":"اگر عدد ۵۰ بیانگر شانس یکسان وقوع مقادیر بالاتر و پایین تر از مقدار محتمل ترین حالت باشد، لطفا نظر خود را درباره جهت و میزان برآوردی انحراف از مقدار محتمل ترین حالت برای فصل بعد با حرکت دادن گوی آبی در جهت مورد نظر خود برای فصل بعد ارایه فرمایید. (مثلا اگرچه مقدار تورم ۳۲ درصدی برای فصل بعد محتمل ترین حالت باشد ممکن است به نظر شما شانس وقوع مقادیر بالاتر از ۳۲ درصد بیشتر از شانس وقوع مقادیر کمتر از ۳۲ باشد)"
-                }],
-                "hasHeader":true,
-                "isRequiredInput":false,
-                "hasLinearScale":true,
-                "hasRangeLinearScale":false,
-                "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
-                "headerSize":["","50%","50%"],
-                "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ تورم","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
-                ]
-            }               
-        },
-        {
-            "id":"EconomicGrowthRate",
-            "caption":"نرخ رشد اقتصادی",
-            "image":"assets/images/economicGrowRate.png",
-            "paragraph":[
-                {
-                    "bold":"آهنگ کاهشی تورم نقطه به نقطه در فصل تابستان کند شد در حالی که رشد اقتصادی کاهش یافت. ",
-                    "regular":"روند نزولی تورم نقطه به نقطه که در زمستان ۱۴۰۱ از اوج ۵۴.۰ درصدی آغاز و به ۳۱.۹ درصد در بهار ۱۴۰۳ رسیده بود، در فصل تابستان ۱۴۰۳روند نزولی نرخ رشد اقتصادی برای همه بخش ها شامل بخش نفت تورم از ابتدای سال کاهش یافته و از ۴.۶ درصد در فصل بهار به ۴ درصد در فصل پاییز رسیده است. همچنین نرخ رشد اقتصادی بدون نفت که تا فصل تابستان به ۲.۸ درصد رسیده بود بر پایه کنون یابی که به کمک شاخص های پیشاهنگ برآورد می شود نشان دهنده یک روند کاهنده برای رشد بدون نفت تا سطح ۲.۶ درصد می باشد."
-                }
-            ]
-            ,
-            "ForecastMacroVarForUpcomingPeriod":{
-                "paragraph":[
-                    {
-                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
-                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید.  حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
-                    "regular":""
-                }],
-                "hasHeader":true,
-                "isRequiredInput":false,
-                "hasLinearScale":true,
-                "hasRangeLinearScale":true,
-                "isWrapFirstColumn":true,
-                "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
-                "headerSize":["","10%","10%","25%","25%","25%"],
-                "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":4.0,"defVal":4.3,"valType":"number"},{"min":0,"max":100,"value":3.4,"defVal":4,"valType":"number"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"},{"min":-4,"max":6,"value":4,"defVal":4,"valType":"vertLinearScale"}]}
-                ]
-            },
-            "Diviation":{
-                "paragraph":[
-                    {
-                    "header":"۱/۲ اشانس انحراف از محتمل ترین حالت",
-                    "bold":"",
-                    "regular":"اگر عدد ۵۰ بیانگر شانس یکسان وقوع مقادیر بالاتر و پایین تر از مقدار محتمل ترین حالت باشد، لطفا نظر خود را درباره جهت و میزان برآوردی انحراف از مقدار محتمل ترین حالت برای فصل بعد با حرکت دادن گوی آبی در جهت مورد نظر خود برای فصل بعد ارایه فرمایید. (مثلا اگرچه مقدار تورم ۳۲ درصدی برای فصل بعد محتمل ترین حالت باشد ممکن است به نظر شما شانس وقوع مقادیر بالاتر از ۳۲ درصد بیشتر از شانس وقوع مقادیر کمتر از ۳۲ باشد)"
-                }],
-                "hasHeader":true,
-                "isRequiredInput":false,
-                "hasLinearScale":true,
-                "hasRangeLinearScale":false,
-                "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
-                "headerSize":["","50%","50%"],
-                "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ رشد اقتصادی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
                 ]
             }               
         }
