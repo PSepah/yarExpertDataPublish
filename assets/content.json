@@ -1,7 +1,7 @@
 ﻿{
     "menu":[
         {"caption":"شاخص نااطمینانی","icon":"","link":"UncertaintyIndex"},
-        {"caption":"بدهی دولت به نظام بانکی","icon":"","link":"OilSale"},
+        {"caption":"رشد بدهی دولت به نظام بانکی","icon":"","link":"OilSale"},
         {"caption":"صادرات نفت ایران","icon":"","link":"OilExport"},
         {"caption":"رشد نقدینگی","icon":"","link":"LiquidityGrowth"},
         {"caption":"نرخ ارز","icon":"","link":"CurrencyGrowth"},
@@ -246,7 +246,7 @@
                 "header":["متغیر","سال پیش","فصل پیش","فصل بعد","شش ماه بعد","سال بعد"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز (هزارتومان)","defVal":0,"valType":""},{"min":0,"max":100,"value":60.3,"defVal":59.6,"valType":"number"},{"min":50,"max":120,"value":76,"defVal":76,"valType":"number"},{"min":50,"max":120,"value":76,"defVal":76,"valType":"vertLinearScale"},{"min":50,"max":120,"value":76,"defVal":10,"valType":"vertLinearScale"},{"min":50,"max":120,"value":76,"defVal":76,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز (هزارتومان)","defVal":0,"valType":""},{"min":0,"max":100,"value":60.3,"defVal":59.6,"valType":"number"},{"min":50,"max":150,"value":76,"defVal":76,"valType":"number"},{"min":50,"max":150,"value":76,"defVal":76,"valType":"vertLinearScale"},{"min":50,"max":150,"value":76,"defVal":10,"valType":"vertLinearScale"},{"min":50,"max":150,"value":76,"defVal":76,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
