@@ -149,7 +149,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","سال پیش","پایان آبان ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -330,7 +330,7 @@
                 "header":["متغیر","سال پیش","پایان دی ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":32.3,"defVal":26.2,"valType":"number"},{"min":10,"max":80,"value":45,"defVal":45,"valType":"number"},{"min":10,"max":80,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":10,"max":80,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":0,"max":100,"value":32,"defVal":32,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":32.3,"defVal":26.2,"valType":"number"},{"min":10,"max":80,"value":31.8,"defVal":31.8,"valType":"number"},{"min":20,"max":70,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":20,"max":70,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32,"defVal":32,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
