@@ -1,0 +1,356 @@
+﻿{
+    "menu":[
+        {"caption":"شاخص نااطمینانی","icon":"","link":"UncertaintyIndex"},
+        {"caption":"رشد خالص بدهی دولت به نظام بانکی","icon":"","link":"NetGovermentDebtGrowth"},
+        {"caption":"صادرات نفت ایران","icon":"","link":"OilExport"},
+        {"caption":"رشد نقدینگی","icon":"","link":"LiquidityGrowth"},
+        {"caption":"نرخ ارز","icon":"","link":"CurrencyGrowth"},
+        {"caption":"نرخ بازده در بازار بدهی","icon":"","link":"RateOfReturnInTheDebtMarket"},
+        {"caption":"تورم نقطه‌به‌تقطه","icon":"","link":"InfloationRate"},
+        {"caption":"گردآوری و ارسال اطلاعات","icon":"","link":"sendLink"}
+    ],
+    "economicVar": [
+        {
+            "id":"UncertaintyIndex",
+            "uncerAdjust":8.98,
+            "caption":"شاخص نااطمینانی",
+            "image":"assets/images/uncert.png",
+            "paragraph":[
+                    {
+                        "bold":"در ابتدای فصل زمستان شاخص نا اطمینانی کاهش یافت.",
+                        "regular":"شاخص نا اطمینانی دریک در فصل پاییز نه تنها به دلیل آغاز دور تازه‌ای از تشدید تنش‌های منطقه‌ای شامل عملیات وعده صادق ۲ و متعاقب آن عملیات اسراییل در ایران افزایش یافت بلکه در ۱۶ آبان ۱۴۰۳ با انتخاب مجدد ترامپ در انتخابات ریاست‌جمهوری آمریکا افزایش یافت. دراین زمینه علاوه بر موارد فوق در در پایان فصل  حکومت بشار اسد در سوریه که به عنوان یکی از اعضای محور مقاومت از حمایت ایران برخوردار بود بدنبال درگیری های داخلی سقوط کرد. همچنین در همین فصل  در کنار این مجموعه اتفاقات، شاهد اعلام آمادگی کشورهای اروپایی برای فعال نمودن مکانیزم ماشه بودیم که این امر سبب شده تا مقدار شاخص نااطمینانی دریک که در مهرماه به ۵۲.۷ رسیده بود در پایان پاییز دوباره افزایش یافته و تا رقم ۵۱.۱ افزایش یابد. اما در ابتدای فصل زمستان علی رغم همه موارد فوق طرح مسایلی چون مذاکرات پشت پرده ایران و سیگنال های نسبتا مثبت آمریکا شاهد کاهش نسبی این شاخص بوده ایم."
+                    }
+            ],
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. یادآوری می شود که در ۵ ساله اخیر بالاترین مقدار شاخص مزبور در زمان ترور سردار سلیمانی و حمله به عین الاسد در بالاترین سطح خود برابر  ۸۰ واحد و کمترین مقدار آن در سطح  ۱۴ واحد بوده است. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.رقم فصل پیش متوسط پاییز و رقم سال پیش متوسط در زمستان سال گذشته می‌باشد.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","پایان دی ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":23.4,"defVal":10,"valType":"number"},{"min":0,"max":100,"value":45.0,"defVal":10,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲  شانس انحراف از محتمل ترین حالت ",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }            
+        },
+        {
+            "id":"NetGovermentDebtGrowth",
+            "uncerAdjust":25.76,
+            "caption":"رشد خالص بدهی دولت به نظام بانکی",
+            "image":"assets/images/NetGovermentDebtGrowth.png",
+            "paragraph":[
+                {
+                    "bold":"نرخ رشد بدهی‌های دولت به نظام بانکی (شامل بانک مرکزی و شبکه بانکی) در فصل تابستان پس از افت شدید فصل بهار، به مدار صعودی بازگشت. ",
+                    "regular":"نرخ رشد بدهی‌های دولت به نظام بانکی (شامل بانک مرکزی و شبکه بانکی) در فصل بهار ۱۴۰۳ با افت شدید از ۶۴.۹ درصد در زمستان ۱۴۰۲ به ۲۱.۵ درصد کاهش یافت، اما در فصل تابستان ۱۴۰۳ مجددا به مدار صعودی بازگشت و به ۳۲.۷ درصد افزایش یافت. رشد متوسط سه ماهه خالص بدهی‌های دولت به نظام بانکی در فصل پاییز ۱۴۰۳ نیز تا پایان آبان ماه با کاهش نسبی همراه بوده و به ۲۸.۲ درصد رسیده است."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید. رقم فصل پیش مربوط به تابستان ۱۴۰۳ می باشد.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","پایان آبان ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد بدهی دولت به نظام بانکی","defVal":0,"valType":""},{"min":-10,"max":90,"value":64.9,"defVal":80.2,"valType":"number"},{"min":-10,"max":90,"value":28.2,"defVal":10,"valType":"number"},{"min":-10,"max":90,"value":32.7,"defVal":74.2,"valType":"vertLinearScale"},{"min":-10,"max":90,"value":32.7,"defVal":74.2,"valType":"vertLinearScale"},{"min":-10,"max":90,"value":32.7,"defVal":74.2,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲  شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد بدهی دولت به نظام بانکی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }            
+        },
+        {
+            "id":"OilExport",
+            "uncerAdjust":0.48,
+            "caption":"صادرات نفت ایران",
+            "image":"assets/images/oilExport.png",
+            "paragraph":[
+                {
+                    "bold":"مقدار صادرات نفت در پی روند کاهشی آغاز شده از ماه دسامبر در ابتدای فصل زمستان تا یک میلیون و سیصدو هشتاد هزار بشکه در روز کاهش یافت. ",
+                    "regular":"صادرات نفت و میعانات گازی که به طور متوسط در حدود ۱.۵ میلیون بشکه در روز بود، روند کاهشی خود را پس از روی کار آمدن ترامپ آغاز کرد و در پایان ماه زانویه به ۱.۳۸ میلیون بشکه در روز رسید. با توجه به سهم بالای چین از صادرات نفت که سبب بالارفتن ریسک صادرات می شود و همچنین نظر به موضع گیری های اخیر پکن در زمینه عدم امکان همراهی بیشتر با ایران در صورت سخت گیری بیشتر دولت ترامپ باید ایران خود را برای کاهش جدی درآمدهای نفتی آماده کند. "
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.رقم فصل پیش متوسط پاییز و رقم سال پیش متوسط در زمستان سال گذشته می‌باشد.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","پایان دی ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":1.56,"defVal":1.65,"valType":"number"},{"min":0,"max":100,"value":1.38,"defVal":1.65,"valType":"number"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","پایان آبان ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }             
+        },
+        {
+            "id":"LiquidityGrowth",
+            "uncerAdjust":14.64,
+            "caption":"رشد نقدینگی",
+            "image":"assets/images/monyGrow.png",
+            "paragraph":[
+                {
+                    "bold":"نرخ رشد نقدینگی که از آغاز فروردین وارد یک روند افزایشی شده بود، پس از یک کاهش اندک در شهریورماه، دوباره در پاییز ۱۴۰۳ افزایش یافت و به ۲۸.۱ رسید و در این سطح متوقف شد. ",
+                    "regular":". نرخ رشد نقدینگی که در یک سیر کاهشی از شهریور سال ۱۴۰۰ کاهش یافته و در ابتدای سال جاری به حدود ۲۴ درصد رسیده بود در سال جاری وارد یک فاز افزایشی شده و نهایتا در مرداد ماه سال جاری به ۲۸.۴ درصد رسیده بود، علی رغم کاهش اندک ان در شهریور ماه، در پاییز دوباره به سیر افزایشی خود ادامه داد و به ۲۸.۱ درصد افزایش یافت. در همین دوره نرخ رشد پول نیز که ازابتدای سال جاری از ۱۵.۷ درصد به ۲۴.۸ درصد در مرداد رسیده بود نیز در شهریور ماه در همین سطح ثابت ماند."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","پایان آذر ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":24.3,"defVal":26.2,"valType":"number"},{"min":0,"max":100,"value":28.0,"defVal":28.1,"valType":"number"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":8.1,"defVal":28.1,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }              
+        },
+        {
+            "id":"CurrencyGrowth",
+            "uncerAdjust":167.802,
+            "caption":"نرخ ارز",
+            "image":"assets/images/currencyRate.png",
+            "paragraph":[
+                {
+                    "bold":"بازار ارز که در فصل پاییز یک جهش ۲۵ درصدی را تجربه کرد در فصل زمستان نیز افزایشی بود. ",
+                    "regular":"نرخ ارز که از ابتدای سال یک دوره ثبات نسبی را سر گذراند در فصل پاییز با افزایش تنش های منطقه ای و رویارویی مجدد ایران و اسراییل و همچنین اعلام آمادگی کشورهای اروپایی برای فعال نمودن مکانیزم ماشه در ابتدای ورود ترامپ به کاخ سفید وارد یک دوره جهشی شد و بشدت از ۶۳ هزار تومان در ابتدای فصل پاییز تا 83.2 هزارتومان در میانه زمستان افزایش یافت. "
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","میانه بهمن ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز (هزارتومان)","defVal":0,"valType":""},{"min":50,"max":200,"value":60.3,"defVal":59.6,"valType":"number"},{"min":50,"max":200,"value":76,"defVal":83.2,"valType":"number"},{"min":50,"max":200,"value":76,"defVal":76,"valType":"vertLinearScale"},{"min":50,"max":200,"value":76,"defVal":10,"valType":"vertLinearScale"},{"min":50,"max":200,"value":76,"defVal":76,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"",
+                    "regular":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید."
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }               
+        },
+        {
+            "id":"RateOfReturnInTheDebtMarket",
+            "uncerAdjust":3.97,
+            "caption":"نرخ بازده در بازار بدهی",
+            "image":"assets/images/nerxBazdeh.png",
+            "paragraph":[
+                {
+                    "bold":"نرخ بازده در بازار بدهی همان طور که پیش بینی می شد در میانه فصل زمستان افزایشی بود و به ۳۳.۲ درصد رسید. ",
+                    "regular":"نرخ بازده اوراق در بازار بدهی که در زمستان سال گذشته از ۲۷ درصد به ۳۳.۶ درصد رسیده بود، در فصل تابستان و بدنبال صدور دستور بانک مرکزی برای رعایت نرخ های مصوب سود بانکی اندکی کاهش یافت و در پایان مرداد ماه به ۲۹.۹ درصد رسید در فصل پاییز دوباره وارد روند صعودی شد و نهایتا به ۳۳.۲ درصد رسید. یکی از دلایل مهم این امر که سبب شد تا علی رغم فشار بانک مرکزی بر نرخ های استقراض، در فصل پاییز شاهد افزایش نرخ بازده باشیم افزایش فشار بر بودجه دولت برای فروش اوراق بیشتر از میزان مصوب و فرا رسیدن سررسید قرارداد های ریپو در بازار بدهی بود."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","میانه بهمن ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":40,"value":32.96,"defVal":26.06,"valType":"number"},{"min":0,"max":100,"value":33.2,"defVal":30.38,"valType":"number"},{"min":20,"max":40,"value":30.38,"defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید."
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }               
+        },
+         {
+            "id":"InfloationRate",
+            "uncerAdjust":14.707,
+            "caption":"تورم نقطه‌به‌تقطه",
+            "image":"assets/images/infolation.png",
+            "paragraph":[
+                {
+                    "bold":"هر چند سیر نزولی تورم متوسط در فصل پاییز ادامه یافت، اما تورم نقطه به نقطه در ابتدای فصل زمستان اندکی افزایش یافت و به ۳۱.۸ درصد رسید. ",
+                    "regular":"بر اساس آخرین گزارش مرکز آمار ایران، نرخ تورم (متوسط ۱۲ماهه) در دیماه ۱۴۰۳ به روند نزولی خود (که از ۴۹.۱ درصد در اردیبهشت ۱۴۰۲ شروع شده‌است) ادامه داده و به حدود ۳۲.۰ درصد رسیده‌است.  تورم نقطه به نقطه نیز در همین دوره پس از توقف روند کاهشی که زمستان سال گذشته آغاز شده بود اندکی افزایش یافت و به ۳۱.۸ درصد رسید."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"لطفا برای فصل بعد، شش ماه بعد و سال بعد نخست به کمک دو گوی آبی مقادیر متغیر در دامنه دو سناریو بدبینانه و خوشبینانه را مشخص فرمایید. حتما پس از وارد نمودن دامنه مورد نظر مربع کناری را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","پایان دی ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "headerSize":["","10%","10%","25%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":32.3,"defVal":26.2,"valType":"number"},{"min":10,"max":80,"value":45,"defVal":45,"valType":"number"},{"min":10,"max":80,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":10,"max":80,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":0,"max":100,"value":32,"defVal":32,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان سال"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }              
+        }
+    ]
+}
