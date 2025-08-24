@@ -52,7 +52,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -101,7 +101,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد خالص بدهی دولت به نظام بانکی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -150,7 +150,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -184,7 +184,7 @@
                 "header":["متغیر","پایان سال ۱۴۰۳","میانه فصل جاری","پایان فصل جاری","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":29.1,"defVal":29.1,"valType":"number"},{"min":0,"max":100,"value":33,"defVal":33,"valType":"number"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":45,"value":8.1,"defVal":28.1,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":29.1,"defVal":29.1,"valType":"number"},{"min":0,"max":100,"value":33,"defVal":33,"valType":"number"},{"min":25,"max":70,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":70,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":70,"value":8.1,"defVal":28.1,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -199,7 +199,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان فصل ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -248,7 +248,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۳ ","درصد انحراف از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال  ","درصد انحراف از محتمل ترین حالت در پایان فصل "],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -297,7 +297,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۳ ","درصد انحراف از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -346,7 +346,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۳ ","درصد انحراف از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ","درصد انحراف از محتمل ترین حالت در پایان فصل"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
