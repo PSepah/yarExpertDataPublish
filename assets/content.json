@@ -34,7 +34,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":true,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","پایان سال ۱۴۰۴","میانه فصل جاری","پایان فصل جاری","پایان تابستان ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
+                "header":["متغیر","پایان سال ۱۴۰۳","میانه فصل جاری","پایان فصل جاری","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
                     {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":69.8,"defVal":69.8,"valType":"number"},{"min":0,"max":100,"value":73.1,"defVal":73.1,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
@@ -279,7 +279,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":true,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","سال پیش","میانه بهمن ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "header":["متغیر","سال پیش","میانه فصل جاری","پایان سال جاری","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
                     {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":40,"value":34.7,"defVal":34.7,"valType":"number"},{"min":0,"max":100,"value":34.6,"defVal":34.6,"valType":"number"},{"min":20,"max":40,"value":30.38,"defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"}]}
@@ -328,7 +328,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":true,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","سال پیش","میانه بهمن ماه","پایان سال جاری","پایان تابستان ۱۴۰۴","پایان سال ۱۴۰۴"],  
+                "header":["متغیر","سال پیش","پایان تیر ۱۴۰۴","پایان فصل جاری","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
                     {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":37.1,"defVal":37.1,"valType":"number"},{"min":10,"max":80,"value":41.2,"defVal":41.2,"valType":"number"},{"min":20,"max":70,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":20,"max":70,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32,"defVal":32,"valType":"vertLinearScale"}]}
