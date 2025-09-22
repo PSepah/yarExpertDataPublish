@@ -148,7 +148,7 @@
                 "paragraph":[
                     {
                     "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
-                    "bold":"چنانچه در ۵ ساله اخیر بالاترین مقدار شاخص با مقدار ۸۳ مربوط به بهار امسال و برای پاییز سال گذشته در زمان حمله موشکی به اسراییل برابر ۵۲ و برای سال گذشته قبل از انتخاب ترامپ مقدار آن برابر با رقم ۲۴ واحد باشد، مقدار این شاخص را برای پایان فصل تابستان، برای پایان سال ۱۴۰۴ و برای پایان تابستان ۱۴۰۵ چه رقمی پیشنهاد می فرمایید؟ ",
+                    "bold":"دراین بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بدبینانه و خوشبینانه مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
                     "regular":""
                 }],
                 "hasHeader":true,
@@ -174,7 +174,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -223,7 +223,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد خالص بدهی دولت به نظام بانکی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -257,7 +257,7 @@
                 "header":["متغیر","پایان سال ۱۴۰۳","مرداد ماه","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":1.54,"defVal":1.54,"valType":"number"},{"min":0,"max":100,"value":1.45,"defVal":1.45,"valType":"number"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":2.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":1.54,"defVal":1.54,"valType":"number"},{"min":0,"max":100,"value":1.45,"defVal":1.45,"valType":"number"},{"min":0.3,"max":3.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":3.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":3.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -272,7 +272,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -321,7 +321,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -370,7 +370,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -404,7 +404,7 @@
                 "header":["متغیر","سال پیش","شهریور ماه","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":40,"value":34.8,"defVal":34.8,"valType":"number"},{"min":0,"max":100,"value":34.9,"defVal":34.9,"valType":"number"},{"min":20,"max":40,"value":30.38,"defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":50,"value":34.8,"defVal":34.8,"valType":"number"},{"min":0,"max":100,"value":34.9,"defVal":34.9,"valType":"number"},{"min":20,"max":50,"value":30.38,"defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":50,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -419,7 +419,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
@@ -468,7 +468,7 @@
                 "hasLinearScale":true,
                 "hasRangeLinearScale":false,
                 "isWrapFirstColumn":true,
-                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در سال ۱۴۰۴"],  
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
