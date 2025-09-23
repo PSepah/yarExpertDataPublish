@@ -404,7 +404,7 @@
                 "header":["متغیر","سال پیش","شهریور ماه","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
                 "headerSize":["","10%","10%","25%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":50,"value":34.8,"defVal":34.8,"valType":"number"},{"min":0,"max":100,"value":34.9,"defVal":34.9,"valType":"number"},{"min":20,"max":50,"value":30.38,"defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":50,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":40,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":50,"value":34.8,"defVal":34.8,"valType":"number"},{"min":0,"max":100,"value":34.9,"defVal":34.9,"valType":"number"},{"min":20,"max":50,"value":30.38,"defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":50,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":50,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
