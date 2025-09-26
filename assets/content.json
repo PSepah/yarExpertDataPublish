@@ -45,7 +45,7 @@
                 "paragraph":[
                     {
                     "header":"",
-                    "bold":"بخش اول: ارزیابی سناریو های محتمل.چنانچه سناریو های محتمل محدود به چهار حالت زیر جدول زیر باشد، برای هرسناریو در پایان پاییز امسال چه احتمالی  نظیر می کنید؟",
+                    "bold":["بخش اول: ارزیابی سناریو های محتمل.","چنانچه سناریو های محتمل محدود به چهار حالت زیر جدول زیر باشد، برای هرسناریو در پایان پاییز امسال چه احتمالی  نظیر می کنید؟"],
                     "regular":""
                 }],
                 "hasHeader":true,
@@ -56,18 +56,19 @@
                 "header":["متغیر","پایان پاییز ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران شدید یا وقوع تقابل نظامی","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
-                 ]},{"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با اعمال تحریم بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                    {"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران شدید یا وقوع تقابل نظامی","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]},{"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با اعمال تحریم بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
                  ]}
                  ,{
                     "hasHeader":false,
+                    "rtl":true,
                     "isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"ادامه وضع موجود","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
                  ]},
                     {
                     "hasHeader":false,
                     "isAutomate":"true",
+                    "rtl":true,
                     "isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"کاهش تنش ها در داخل و خارج","defVal":0,"valType":""},{"min":0,"max":100,"value":10,"defVal":10,"valType":"horzLinearScale"}
-                    
                  ]}                                     
                 ]
             }
@@ -106,7 +107,7 @@
                 "paragraph":[
                     {
                     "header":"",
-                    "bold":"چنانچه سناریو های محتمل محدود به چهار حالت زیر جدول زیر باشد، برای هرسناریو در پایان امسال چه احتمالی  نظیر می کنید؟",
+                    "bold":""  ,
                     "regular":""
                 }],
                 "hasHeader":true,
@@ -117,16 +118,19 @@
                 "header":["متغیر","پایان سال ۱۴۰۴"],  
                 "headerSize":["","50%","50%"],
                 "row":[
-                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران شدید یا وقوع تقابل نظامی","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
-                 ]},{"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با اعمال تحریم بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                    {"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران شدید یا وقوع تقابل نظامی","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]},{"isCheckedRange":true,
+                 "rtl":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با اعمال تحریم بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
                  ]}
                  ,{
                     "hasHeader":false,
+                    "rtl":true,
                     "isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"ادامه وضع موجود","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
                  ]},
                     {
                     "hasHeader":false,
                     "isAutomate":"true",
+                    "rtl":true,
                     "isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"کاهش تنش ها در داخل و خارج","defVal":0,"valType":""},{"min":0,"max":100,"value":10,"defVal":10,"valType":"horzLinearScale"}
                     
                  ]}                                     
