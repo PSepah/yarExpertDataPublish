@@ -1,0 +1,531 @@
+﻿{
+    "expiredDate":"1404/07/29",
+    "menu":[
+        {"caption":"شاخص نااطمینانی","icon":"","link":"UncertaintyIndex"},
+        {"caption":"رشد خالص بدهی دولت به نظام بانکی","icon":"","link":"NetGovermentDebtGrowth"},
+        {"caption":"صادرات نفت ایران","icon":"","link":"OilExport"},
+        {"caption":"رشد نقدینگی","icon":"","link":"LiquidityGrowth"},
+        {"caption":"نرخ ارز","icon":"","link":"CurrencyGrowth"},
+        {"caption":"نرخ بازده در بازار بدهی","icon":"","link":"RateOfReturnInTheDebtMarket"},
+        {"caption":"تورم نقطه‌به‌تقطه","icon":"","link":"InfloationRate"},
+        {"caption":"گردآوری و ارسال اطلاعات","icon":"","link":"sendLink"}
+    ],
+    "economicVar": [
+        {
+            "id":"Senario1",
+            "uncerAdjust":8.98,
+            "caption":"صاحبنظر گرامی،",
+            "image":"",
+            "paragraph":[
+                    {
+                        "bold":"",
+                        "regular":"",
+                        "endParagraph":""           
+                    }
+            ],
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"",
+                    "bold":"ضمن سپاس از مشارکت شما در این نظر سنجی خواهشمنداست به سوالات در دو بخش که بخش اول شامل سناریو های محتمل و بخش دوم شامل پیش بینی مولفه های اقتصادی است پاسخ فرمایید",
+                    "regular":""
+                }],
+                "hasHeader":false,
+                "isRequiredInput":false,
+                "hasLinearScale":false,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":[],  
+                "headerSize":[],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"","defVal":0,"valType":""},{"min":0,"max":100,"value":69.8,"defVal":69.8,"valType":"number"},{"min":0,"max":100,"value":73.1,"defVal":73.1,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"",
+                    "bold":["بخش اول: ارزیابی سناریو های محتمل.","چنانچه سناریو های محتمل محدود به چهار حالت در جدول زیر باشد، برای هرسناریو در پایان پاییز امسال چه احتمالی  نظیر می کنید؟"],
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","پایان پاییز ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران شدید یا وقوع تقابل نظامی","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]},{"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با اعمال تحریم بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]}
+                 ,{
+                    "hasHeader":false,
+                    "rtl":true,
+                    "isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"ادامه وضع موجود","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]},
+                    {
+                    "hasHeader":false,
+                    "isAutomate":"true",
+                    "rtl":true,
+                    "isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"کاهش تنش ها در داخل و خارج","defVal":0,"valType":""},{"min":0,"max":100,"value":10,"defVal":10,"valType":"horzLinearScale"}
+                 ]}                                     
+                ]
+            }
+        },       
+        {
+            "id":"Senario2",
+            "uncerAdjust":8.98,
+            "caption":"",
+            "image":"",
+            "paragraph":[
+                    {
+                        "bold":"",
+                        "regular":"",
+                        "endParagraph":""           
+                    }
+            ],
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"",
+                    "bold":"چنانچه سناریو های محتمل برای پایان سال ۱۴۰۴ محدود به چهار حالت در جدول زیر باشد، برای هر سناریو در پایان امسال چه احتمالی نظیر می کنید؟",
+                    "regular":""
+                }],
+                "hasHeader":false,
+                "isRequiredInput":false,
+                "hasLinearScale":false,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":[],  
+                "headerSize":[],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"","defVal":0,"valType":""},{"min":0,"max":100,"value":69.8,"defVal":69.8,"valType":"number"},{"min":0,"max":100,"value":73.1,"defVal":73.1,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"",
+                    "bold":""  ,
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران شدید یا وقوع تقابل نظامی","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]},{"isCheckedRange":true,
+                 "rtl":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با اعمال تحریم بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]}
+                 ,{
+                    "hasHeader":false,
+                    "rtl":true,
+                    "isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"ادامه وضع موجود","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]},
+                    {
+                    "hasHeader":false,
+                    "isAutomate":"true",
+                    "rtl":true,
+                    "isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"کاهش تنش ها در داخل و خارج","defVal":0,"valType":""},{"min":0,"max":100,"value":10,"defVal":10,"valType":"horzLinearScale"}
+                    
+                 ]}                                     
+                ]
+            }
+        },
+        {
+            "id":"start",
+            "uncerAdjust":8.98,
+            "caption":"",
+            "image":"",
+            "paragraph":[
+                    {
+                        "bold":"",
+                        "regular":"",
+                        "endParagraph":"بخش دوم: پیش بینی مولفه های اقتصادی \n  این بخش شامل دو قسمت است.لطفا در قسمت اول این بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بحران شدید و تقابل نظامی در مقابل سناریوی  خوشبینانه  و کاهش تنشهای داخلی و بین الملی مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.\nدر قسمت دوم برای وارد نمودن شانس انحراف از محتمل ترین حالت، نخست لطفا به انتخاب خود برای محتمل ترین حالت برای پایان فصل نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.\nشایان ذکر است که نتایج پیش بینی های شما برای دوره های گذشته پس از پایان هر دوره نظرسنجی و تکمیل و ارسال فرم در دسترس شما قرار خواهد گرفت و به بهترین پیش بینی جایزه ای تعلق خواهد گرفت."           
+                    }
+            ],
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"",
+                    "bold":"",
+                    "regular":""
+                }],
+                "hasHeader":false,
+                "isRequiredInput":false,
+                "hasLinearScale":false,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":[],  
+                "headerSize":[],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"","defVal":0,"valType":""},{"min":0,"max":100,"value":69.8,"defVal":69.8,"valType":"number"},{"min":0,"max":100,"value":73.1,"defVal":73.1,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"",
+                    "bold":""  ,
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[                  
+                ]
+            }
+        },                   
+        {
+            "id":"UncertaintyIndex",
+            "uncerAdjust":8.98,
+            "caption":"شاخص نااطمینانی",
+            "image":"assets/images/uncert.png",
+            "paragraph":[
+                    {
+                        "bold":"",
+                        "regular":"شاخص نا اطمینانی در فصل آغازین سال ۱۴۰۴ به بالاترین سطح طی سال های اخیر رسید. چنانچه در ۵ ساله اخیر بالاترین مقدار شاخص با مقدار ۸۳ مربوط به بهار امسال و برای پاییز سال گذشته در زمان حمله موشکی به اسراییل برابر ۵۲ و برای سال گذشته قبل از انتخاب ترامپ مقدار آن برابر با رقم ۲۴ واحد باشد، مقدار این شاخص را برای پایان پاییز و برای پایان سال جاری چه رقمی پیشنهاد می فرمایید؟ "
+                    }
+            ],
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"دراین بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بحران شدید و تقابل نظامی در مقابل سناریوی  خوشبینانه  و کاهش تنشهای داخلی و بین الملی مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","پایان سال ۱۴۰۳","شهریور ماه ۱۴۰۴","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
+                "headerSize":["","10%","15%","20%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":69,"defVal":69,"valType":"number"},{"min":0,"max":100,"value":42,"defVal":42,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲  شانس انحراف از محتمل ترین حالت ",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"شاخص نااطمینانی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }            
+        },
+        {
+            "id":"NetGovermentDebtGrowth",
+            "uncerAdjust":25.76,
+            "caption":"رشد خالص بدهی دولت به نظام بانکی",
+            "image":"assets/images/NetGovermentDebtGrowth.png",
+            "paragraph":[
+                {
+                    "bold":"",
+                    "regular":"نرخ رشد بدهی‌های دولت به نظام بانکی (شامل بانک مرکزی و شبکه بانکی) هرچند در سه ماهه پایانی سال گذشته کاهشی بوده اما در در سه ماه اول سال جاری این نرخ مجدد افزایش یافته و به ۲۵.۸ درصد رسید. خالص بدهی بخش دولتی در پایان خرداد  به ۱۱۷۱.۵ همت رسید."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"دراین بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بحران شدید و تقابل نظامی در مقابل سناریوی  خوشبینانه  و کاهش تنشهای داخلی و بین الملی مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","پایان سال ۱۴۰۳"," ۱۴۰۴ خرداد ماه","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
+                "headerSize":["","10%","15%","20%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد خالص بدهی دولت به نظام بانکی","defVal":0,"valType":""},{"min":-10,"max":90,"value":16.4,"defVal":16.4,"valType":"number"},{"min":-10,"max":90,"value":24.2,"defVal":24.2,"valType":"number"},{"min":-10,"max":90,"value":32.7,"defVal":74.2,"valType":"vertLinearScale"},{"min":-10,"max":90,"value":32.7,"defVal":74.2,"valType":"vertLinearScale"},{"min":-10,"max":90,"value":32.7,"defVal":74.2,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲  شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد خالص بدهی دولت به نظام بانکی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }            
+        },
+        {
+            "id":"OilExport",
+            "uncerAdjust":0.48,
+            "caption":"صادرات نفت ایران",
+            "image":"assets/images/oilExport.png",
+            "paragraph":[
+                {
+                    "bold":"",
+                    "regular":"علی رغم تنش های شدید سیاسی و امنیتی در بهار سال جاری، مقدار صادرات نفت تا پایان تیر ماه سال جاری روند مثبتی را طی نموده و به ۱.۸ میلیون بشکه در روز رسید. پس از آن در ماه گذشته با کاهش مواجه شد."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"دراین بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بحران شدید و تقابل نظامی در مقابل سناریوی  خوشبینانه  و کاهش تنشهای داخلی و بین الملی مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","پایان سال ۱۴۰۳","مرداد ماه ۱۴۰۴","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
+                "headerSize":["","10%","15%","20%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":1.54,"defVal":1.54,"valType":"number"},{"min":0,"max":100,"value":1.45,"defVal":1.45,"valType":"number"},{"min":0.3,"max":3.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":3.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"},{"min":0.3,"max":3.5,"value":1.65,"defVal":1.65,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"صادرات نفت ایران","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }             
+        },
+        {
+            "id":"LiquidityGrowth",
+            "uncerAdjust":14.64,
+            "caption":"رشد نقدینگی",
+            "image":"assets/images/monyGrow.png",
+            "paragraph":[
+                {
+                    "bold":"",
+                    "regular":"نرخ رشد نقدینگی که در سال گذشته اگرچه فراتر از رشد ۲۵ درصدی هدفگذاری اما نسبتا با ثبات بود، در اسفند ماه تا ۲۹.۱ درصد افزایش یافت و این افزایش در بهار سال جاری نیز ادامه یافت و به حدود ۳۲.۴ درصد رسید.  "
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"دراین بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بحران شدید و تقابل نظامی در مقابل سناریوی  خوشبینانه  و کاهش تنشهای داخلی و بین الملی مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","پایان سال ۱۴۰۳"," ۱۴۰۴ خرداد ماه","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
+                "headerSize":["","10%","15%","20%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":29.1,"defVal":29.1,"valType":"number"},{"min":0,"max":100,"value":32.4,"defVal":32.4,"valType":"number"},{"min":25,"max":70,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":70,"value":28.1,"defVal":28.1,"valType":"vertLinearScale"},{"min":25,"max":70,"value":8.1,"defVal":28.1,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"رشد نقدینگی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }              
+        },
+        {
+            "id":"CurrencyGrowth",
+            "uncerAdjust":167.802,
+            "caption":"نرخ ارز",
+            "image":"assets/images/currencyRate.png",
+            "paragraph":[
+                {
+                    "bold":"",
+                    "regular":"نرخ ارز در سه ماهه نخست سال علی رغم همه تنش ها نسبتا با ثبات بود و تقریبا در حدود نرخ در اسفند سال گذشته باقی ماند. اما در سه ماه دوم سال به روند صعوی بازگشت."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"دراین بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بحران شدید و تقابل نظامی در مقابل سناریوی  خوشبینانه  و کاهش تنشهای داخلی و بین الملی مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","پایان سال ۱۴۰۳","شهریور ماه ۱۴۰۴","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
+                "headerSize":["","10%","15%","20%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز (هزارتومان)","defVal":0,"valType":""},{"min":50,"max":200,"value":93.6,"defVal":93.6,"valType":"number"},{"min":50,"max":200,"value":98.8,"defVal":98.8,"valType":"number"},{"min":50,"max":200,"value":76,"defVal":76,"valType":"vertLinearScale"},{"min":50,"max":200,"value":76,"defVal":10,"valType":"vertLinearScale"},{"min":50,"max":200,"value":76,"defVal":76,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }               
+        },
+        {
+            "id":"RateOfReturnInTheDebtMarket",
+            "uncerAdjust":3.97,
+            "caption":"نرخ بازده در بازار بدهی",
+            "image":"assets/images/nerxBazdeh.png",
+            "paragraph":[
+                {
+                    "bold":"",
+                    "regular":"نرخ بازده در بازار بدهی که در زمستان سال گذشته به 34.7 درصد رسیده بود تا اواخر تابستان در همان حدود باقی ماند. "
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"دراین بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بحران شدید و تقابل نظامی در مقابل سناریوی  خوشبینانه  و کاهش تنشهای داخلی و بین الملی مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","شهریور ماه ۱۴۰۴","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
+                "headerSize":["","10%","15%","20%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":20,"max":50,"value":34.8,"defVal":34.8,"valType":"number"},{"min":0,"max":100,"value":34.9,"defVal":34.9,"valType":"number"},{"min":20,"max":50,"value":30.38,"defVal":130.380,"valType":"vertLinearScale"},{"min":20,"max":50,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"},{"min":20,"max":50,"value":30.38,"defVal":30.38,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ بازده در بازار بدهی","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }               
+        },
+        {
+            "id":"InfloationRate",
+            "uncerAdjust":14.707,
+            "caption":"تورم نقطه‌به‌تقطه",
+            "image":"assets/images/infolation.png",
+            "paragraph":[
+                {
+                    "bold":"",
+                    "regular":"تورم نقطه به نقطه که  پس از یک دوره ثبات نسبی در نیمه دوم سال گذشته وارد روند افزایش شده بود، در نیمه اول سال جاری نیز به روند افزایشی خود ادامه داد."
+                }
+            ]
+            ,
+            "ForecastMacroVarForUpcomingPeriod":{
+                "paragraph":[
+                    {
+                    "header":"۱/۱ دامنه و مقدار محتمل ترین حالت",
+                    "bold":"دراین بخش پیش بینی خود را نخست با حرکت دو گوی آبی در دامنه دو سناریو بحران شدید و تقابل نظامی در مقابل سناریوی  خوشبینانه  و کاهش تنشهای داخلی و بین الملی مشخص نموده، سپس مربع بالای هر جدول را تیک بزنید تا مجدد امکان گزینش فعال شده و بتوانید مقدار محتمل ترین حالت را نیز برای هر دوره وارد نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":true,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","سال پیش","مرداد ماه ۱۴۰۴","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
+                "headerSize":["","10%","15%","20%","25%","25%"],
+                "row":[
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":0.5,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":37.1,"defVal":37.1,"valType":"number"},{"min":10,"max":80,"value":42.4,"defVal":42.24,"valType":"number"},{"min":20,"max":70,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":20,"max":70,"value":45,"defVal":45,"valType":"vertLinearScale"},{"min":20,"max":70,"value":32,"defVal":32,"valType":"vertLinearScale"}]}
+                ]
+            },
+            "Diviation":{
+                "paragraph":[
+                    {
+                    "header":"۱/۲ شانس انحراف از محتمل ترین حالت",
+                    "bold":"لطفا به انتخاب خود برای محتمل ترین حالت در فصل بعد و سال بعد نگاه کنید. آیا شانس وقوع مقادیر بالاتر را بیشتر می دانید (در این صورت ارقام بالای ۵۰ را انتخاب نمایید) اگر به نظر شما شانس وقوع مقادیر بالاتر و پایین تر برابر و ۵۰-۵۰ است عدد ۵۰ را انتخاب نمایید. در غیر حالات فوق رقم پایین تر از پنجاه را انتخاب نمایید.",
+                    "regular":""
+                }],
+                "hasHeader":true,
+                "isRequiredInput":false,
+                "hasLinearScale":true,
+                "hasRangeLinearScale":false,
+                "isWrapFirstColumn":true,
+                "header":["متغیر","درصد انحراف مشاهدات از محتمل ترین حالت در پایان پاییز ۱۴۰۴ ","درصد انحراف مشاهدات از محتمل ترین حالت در پایان سال ۱۴۰۴"],  
+                "headerSize":["","50%","50%"],
+                "row":[
+                    {"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"تورم نقطه‌به‌نقطه","defVal":0,"valType":""},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"},{"min":0,"max":100,"value":50,"defVal":50,"valType":"horzLinearScale"}]}
+                ]
+            }              
+        }
+    ]
+}
