@@ -57,7 +57,7 @@
                 "headerSize":["","50%","50%"],
                 "row":[
                     {"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران شدید یا وقوع تقابل نظامی","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
-                 ]},{"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با اعمال تحریم بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 ]},{"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با افزایش تحریمها بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
                  ]}
                  ,{
                     "hasHeader":false,
@@ -120,7 +120,7 @@
                 "row":[
                     {"rtl":true,"isCheckedRange":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران شدید یا وقوع تقابل نظامی","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
                  ]},{"isCheckedRange":true,
-                 "rtl":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با اعمال تحریم بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
+                 "rtl":true,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"بحران با افزایش تحریمها بدون جنگ","defVal":0,"valType":""},{"min":0,"max":100,"value":30,"defVal":30,"valType":"horzLinearScale"}
                  ]}
                  ,{
                     "hasHeader":false,
@@ -407,7 +407,7 @@
                 "header":["متغیر","پایان سال ۱۴۰۳","شهریور ماه ۱۴۰۴","پایان پاییز ۱۴۰۴","پایان سال ۱۴۰۴","پایان تابستان ۱۴۰۵"],  
                 "headerSize":["","10%","15%","20%","25%","25%"],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز (هزارتومان)","defVal":0,"valType":""},{"min":50,"max":200,"value":93.6,"defVal":93.6,"valType":"number"},{"min":50,"max":200,"value":98.8,"defVal":98.8,"valType":"number"},{"min":50,"max":200,"value":76,"defVal":76,"valType":"vertLinearScale"},{"min":50,"max":200,"value":76,"defVal":10,"valType":"vertLinearScale"},{"min":50,"max":200,"value":76,"defVal":76,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"نرخ ارز (هزارتومان)","defVal":0,"valType":""},{"min":70,"max":250,"value":93.6,"defVal":93.6,"valType":"number"},{"min":70,"max":250,"value":98.8,"defVal":98.8,"valType":"number"},{"min":70,"max":250,"value":76,"defVal":76,"valType":"vertLinearScale"},{"min":70,"max":250,"value":76,"defVal":10,"valType":"vertLinearScale"},{"min":70,"max":250,"value":76,"defVal":76,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
