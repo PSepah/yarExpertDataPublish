@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/dialog-confirm/dialog-confirm.component.css"],
-  "sourcesContent": [".confirm-title {\r\n    font-family: 'vazirmatn', sans-serif;\r\n    font-feature-settings: \"ss01\";\r\n    font-weight: bold;\r\n    font-size: medium;\r\n    padding-right: 5px;\r\n    padding-left: 5px;\r\n}\r\np {\r\n    font-family: 'vazirmatn', sans-serif;\r\n    font-size: small;\r\n}"],
-  "mappings": "AAAA,CAAC,cACG,YAAa,SAAW,CAAE,WAC1B,sBAAuB,OACvB,YAAa,IACb,UAAW,OACX,cAAe,IACf,aAAc,GAClB,CACA,EACI,YAAa,SAAW,CAAE,WAC1B,UAAW,KACf",
-  "names": []
-}
