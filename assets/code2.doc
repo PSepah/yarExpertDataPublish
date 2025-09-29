@@ -1,0 +1,139 @@
+/**
+ * Map ALL "MostLikelyState" JSONs from the source sheet's column D
+ * (each non-empty row) into the target sheet "expertDataWellFormat".
+ *
+ * p1..p3 map to array indices 2,3,4 (skipping 0 and 1).
+ */
+
+// ==== CONFIG ====
+// Source spreadsheet (where column D contains JSONs)
+const SOURCE_SPREADSHEET_ID = '1elAizI6w67RgIl9PlnJBUIAsEntOApHOYL53zDBQmYc';
+// Target spreadsheet (expertDataWellFormat)
+const TARGET_SPREADSHEET_ID  = '1zmWCOQECV_7aIhfdciIQzH0OzbVELJnqeq_SBvDximU';
+const TARGET_SHEET_NAME      = 'MostLikelyState'; // change if needed
+
+// Economic variables to extract (order matters)
+const ECON_VARIABLES = [
+  'Senario1',
+  'Senario2',
+  'UncertaintyIndex',
+  'NetGovermentDebtGrowth',
+  'OilExport',
+  'LiquidityGrowth',
+  'CurrencyGrowth',
+  'RateOfReturnInTheDebtMarket',
+  'InfloationRate' // spelled as in your JSON
+];
+
+// Skip first two entries, take next three as p1..p3
+const MAPPING_INDICES = [2, 3, 4];
+
+// Target header
+const TARGET_HEADERS = [
+  'user','timestamp','economicVariable',
+  'p1_max','p1_value','p1_min',
+  'p2_max','p2_value','p2_min',
+  'p3_max','p3_value','p3_min',
+  'p4_max','p4_value','p4_min'
+];
+
+// ==== MAIN (ALL ROWS) ====
+
+function mapAllMostLikelyStates() {
+  const mostLikelyList = readAllMostLikelyStatesFromColumnD();
+  if (!mostLikelyList.length) {
+    throw new Error('No valid "MostLikelyState" objects found in source column D.');
+  }
+
+  const rows = [];
+  mostLikelyList.forEach(mostLikely => {
+    const user = mostLikely.user || '';
+    const timestamp = mostLikely.timestamp || '';
+
+    ECON_VARIABLES.forEach(variableName => {
+      const arr = safeArray(mostLikely[variableName]);
+      const plucks = pluckPSeries(arr, MAPPING_INDICES); // [ [max,value,min] * 3 ]
+      const row = [
+        user,
+        timestamp,
+        variableName,
+        ...plucks.flat()
+      ];
+      rows.push(row);
+    });
+  });
+
+  // Write to target
+  const tSS = SpreadsheetApp.openById(TARGET_SPREADSHEET_ID);
+  const tSheet = tSS.getSheetByName(TARGET_SHEET_NAME) || tSS.insertSheet(TARGET_SHEET_NAME);
+  tSheet.clearContents();
+
+  tSheet.getRange(1, 1, 1, TARGET_HEADERS.length).setValues([TARGET_HEADERS]);
+  if (rows.length) {
+    tSheet.getRange(2, 1, rows.length, TARGET_HEADERS.length).setValues(rows);
+  }
+}
+
+// ==== READERS ====
+
+/**
+ * Reads ALL non-empty cells in column D of the FIRST sheet of the SOURCE file,
+ * parses JSON per row, and returns an array of MostLikelyState objects.
+ */
+function readAllMostLikelyStatesFromColumnD() {
+  const out = [];
+  const ss = SpreadsheetApp.openById(SOURCE_SPREADSHEET_ID);
+  const sheet = ss.getSheets()[0]; // first sheet
+  const values = sheet.getRange('D1:D' + sheet.getLastRow()).getValues(); // [[val], [val], ...]
+
+  for (let i = 0; i < values.length; i++) {
+    const cell = (values[i][0] || '').toString().trim();
+    if (!cell) continue;
+
+    const parsed = tryParseJSON(cell);
+    const mls = parsed && parsed.MostLikelyState;
+    if (mls && typeof mls === 'object') {
+      out.push(mls);
+    }
+  }
+  return out;
+}
+
+// ==== HELPERS ====
+
+function pluckPSeries(arr, indices) {
+  const out = [];
+  indices.forEach(idx => {
+    const o = arr[idx] || {};
+    out.push([safeNum(o.max), safeNum(o.value), safeNum(o.min)]);
+  });
+  return out;
+}
+
+function safeArray(x) {
+  return Array.isArray(x) ? x : [];
+}
+
+function safeNum(x) {
+  if (x === undefined || x === null || x === '') return '';
+  const n = Number(x);
+  return isNaN(n) ? '' : n;
+}
+
+function tryParseJSON(text) {
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    // Optionally log invalid JSON rows; comment out if noisy
+    // Logger.log('Invalid JSON in column D row: ' + e.message);
+    return null;
+  }
+}
+
+// Optional: UI menu
+function onOpen() {
+  SpreadsheetApp.getUi()
+    .createMenu('Mapper')
+    .addItem('Map ALL MostLikelyState → expertDataWellFormat', 'mapAllMostLikelyStates')
+    .addToUi();
+}

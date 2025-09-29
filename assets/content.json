@@ -38,7 +38,7 @@
                 "header":[],  
                 "headerSize":[],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"","defVal":0,"valType":""},{"min":0,"max":100,"value":69.8,"defVal":69.8,"valType":"number"},{"min":0,"max":100,"value":73.1,"defVal":73.1,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"0","defVal":0,"valType":""},{"min":0,"max":100,"value":69.8,"defVal":69.8,"valType":"number"},{"min":0,"max":100,"value":73.1,"defVal":73.1,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
@@ -100,7 +100,7 @@
                 "header":[],  
                 "headerSize":[],
                 "row":[
-                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"","defVal":0,"valType":""},{"min":0,"max":100,"value":69.8,"defVal":69.8,"valType":"number"},{"min":0,"max":100,"value":73.1,"defVal":73.1,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
+                    {"isCheckedRange":false,"isCheckedValue":false,"step":1,"column":[{"min":0,"max":0,"value":"0","defVal":0,"valType":""},{"min":0,"max":100,"value":69.8,"defVal":69.8,"valType":"number"},{"min":0,"max":100,"value":73.1,"defVal":73.1,"valType":"number"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"},{"min":0,"max":100,"value":51,"defVal":51,"valType":"vertLinearScale"}]}
                 ]
             },
             "Diviation":{
